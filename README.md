@@ -33,6 +33,7 @@ Default values of variables $delay_between_calls & $hr_pause_after throttle down
 
 # Point Of Contact
 Evgueni Erchov
+
 Kivu Consulting, Inc | Cyber Investigations
-E: EErchov@KivuConsulting.com
-T: @EErchov 
+
+E: EErchov@KivuConsulting.com | T: @EErchov 
