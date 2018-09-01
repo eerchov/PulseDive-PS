@@ -27,6 +27,7 @@ PulseDive-Lookup.ps1 is a PowerShell script that leverages PulseDive API for bul
 Default values of variables $delay_between_calls & $hr_pause_after throttle down speed of lookups to stay within the free limits of PulseDive API. Update those variables accordingly for paid plans.
 
 4.	If you’ll get errors related to “Invoke-WebRequest”, run the following commands:
+
         #PS C:\> $AllProtocols = [System.Net.SecurityProtocolType]'Ssl3,Tls,Tls11,Tls12'
         #PS C:\> [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols
         #PS C:\> (Invoke-WebRequest -Uri "https://idp.safenames.com/").StatusCode
