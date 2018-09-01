@@ -4,12 +4,9 @@ PowerShell script for bulk Cyber Threat Intel information lookups for IPs &amp; 
 # Overview
 
 PulseDive (pulsedive.com / @pulsedive) is a free Cyber Threat Intelligence platform that: 
-
-    - Aggregates IOCs from its’ community members and OSINT feeds
-
-    - Enriches IOCs by performing WHOIS requests and active DNS resolutions
-
-    - Probes IOCs by sending HTTP GET requests to collect additional valuable data like HTTP headers, SSL certificate information, and redirects
+- Aggregates IOCs from its’ community members and OSINT feeds
+- Enriches IOCs by performing WHOIS requests and active DNS resolutions
+- Probes IOCs by sending HTTP GET requests to collect additional valuable data like HTTP headers, SSL certificate information, and redirects
 
 PulseDive offers great web-based interface for Cyber Threat Intel and IT Security analysts. PulseDive also offers APIs that can be used for integrations with SIEM tools and etc.
 
