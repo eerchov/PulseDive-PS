@@ -16,7 +16,7 @@ PulseDive-Lookup.ps1 is a PowerShell script that leverages PulseDive API for bul
 
 1.	Save list of IPs/Domains in the Input.csv file. Square brackets around dots are optional.
 2.	Execute “PulseDive-Lookup.ps1” PowerShell script
-3.	Script will grab all IOCs from Input.csv one-by-on and will look them up using PulseDive API. The results will be stored in Output_[DATE]_[TIME].csv file
+3.	Script will grab all IOCs from Input.csv one-by-one and will look them up using PulseDive API. The results will be stored in Output_[DATE]_[TIME].csv file
 
 # Configurations
 1.	Register for a free account on PulseDive.com and get API key associated with your profile. Update $pulsedive_api_key variable in PulseDive-Lookup.ps1 with your key
