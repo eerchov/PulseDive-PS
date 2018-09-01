@@ -33,8 +33,6 @@ Default values of variables $delay_between_calls & $hr_pause_after throttle down
         #PS C:\> (Invoke-WebRequest -Uri "https://idp.safenames.com/").StatusCode
 
 # Point Of Contact
-Evgueni Erchov
+Evgueni Erchov | T: @EErchov 
 
 Kivu Consulting, Inc | Cyber Investigations
-
-T: @EErchov 
