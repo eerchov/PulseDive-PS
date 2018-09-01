@@ -37,4 +37,4 @@ Evgueni Erchov
 
 Kivu Consulting, Inc | Cyber Investigations
 
-E: EErchov@KivuConsulting.com | T: @EErchov 
+T: @EErchov 
