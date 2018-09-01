@@ -1,7 +1,7 @@
 # PulseDive-Lookup.ps1 v0.1b
 PowerShell script for bulk Cyber Threat Intel information lookups for IPs &amp; Domains using PulseDive API
 
-# PulseDive-Lookup.ps1 v0.1b
+# Overview
 
 PulseDive (pulsedive.com / @pulsedive) is a free Cyber Threat Intelligence platform that: 
 •	Aggregates IOCs from its’ community members and OSINT feeds
@@ -12,13 +12,13 @@ PulseDive offers great web-based interface for Cyber Threat Intel and IT Securit
 
 PulseDive-Lookup.ps1 is a PowerShell script that leverages PulseDive API for bulk IPs/Domains lookups.
 
-# PulseDive-Lookup.ps1 v0.1b
+# How It Works
 
 1.	Save list of IPs/Domains in the Input.csv file. Square brackets around dots are optional.
 2.	Execute “PulseDive-Lookup.ps1” PowerShell script
 3.	Script will grab all IOCs from Input.csv one-by-on and will look them up using PulseDive API. The results will be stored in Output_[DATE]_[TIME].csv file
 
-# PulseDive-Lookup.ps1 v0.1b
+# Configurations
 1.	Register for a free account on PulseDive.com and get API key associated with your profile. Update $pulsedive_api_key variable in PulseDive-Lookup.ps1 with your key
 
 2.	Update variable $home_dir to define location where Input and Output .csv files will be located
@@ -31,7 +31,7 @@ Default values of variables $delay_between_calls & $hr_pause_after throttle down
         #PS C:\> [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols
         #PS C:\> (Invoke-WebRequest -Uri "https://idp.safenames.com/").StatusCode
 
-# PulseDive-Lookup.ps1 v0.1b
+# Point Of Contact
 Evgueni Erchov
 Kivu Consulting, Inc | Cyber Investigations
 E: EErchov@KivuConsulting.com
